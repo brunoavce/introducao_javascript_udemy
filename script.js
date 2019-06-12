@@ -1,17 +1,15 @@
-/*
-ESTRUTURAS CONDICIONAIS
-*/
+//ESTRUTURA DE REPETIÇÃO - while(enquanto)
 
-var a = 2;
-var b = 3;
-var c = "Olá mundo";
+var i = 0;
 
-if (c%2 == 1){
-    alert("numero é impar");
-} 
-else if (c%2 == 0){
-    alert("numero é par")
+while(i<3){
+    alert(i);
+
+    i = i+1;
 }
-else {
-    alert("valor inválido");
+
+//ESTRUTURA DE REPETIÇÃO - for(para)
+
+for( var j=0; j<3; j++){
+    alert(j);
 }
