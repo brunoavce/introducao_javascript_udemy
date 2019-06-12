@@ -1,15 +1,10 @@
-//ESTRUTURA DE REPETIÇÃO - while(enquanto)
+//tipos de dados e arrays
 
-var i = 0;
+var numero = 6;
+var decimal = 4.5;
+var texto = "Olá mundo";
+var lista = ["laranja", "maça", "pera", "banana"];
 
-while(i<3){
-    alert(i);
-
-    i = i+1;
-}
-
-//ESTRUTURA DE REPETIÇÃO - for(para)
-
-for( var j=0; j<3; j++){
-    alert(j);
+for( i in lista){
+    alert(lista[i]);
 }
