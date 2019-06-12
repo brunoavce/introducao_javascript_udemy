@@ -1,10 +1,19 @@
-//tipos de dados e arrays
+//FUNÇÕES
 
-var numero = 6;
-var decimal = 4.5;
-var texto = "Olá mundo";
-var lista = ["laranja", "maça", "pera", "banana"];
-
-for( i in lista){
-    alert(lista[i]);
+function soma(a, b){
+    console.log(a+b);
 }
+//soma(2,2);
+
+function subtracao(a, b){
+    return a-b;
+}
+var s = subtracao(5,3);
+//console.log(s);
+
+function multiplicacao(a, b){
+    return a*b;
+}
+
+console.log(multiplicacao(5,5));
+
