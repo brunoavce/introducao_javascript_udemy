@@ -1,3 +1,4 @@
-function mensagem(){
-    alert("Ei não clica em mim");
+function mudaCor(cor){
+    var elemento = document.getElementById("mensagem");
+    elemento.style.color = cor;
 }
